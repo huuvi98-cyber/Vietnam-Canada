@@ -3,7 +3,7 @@ import { VietnamFlag, CanadaFlag } from './Flags';
 
 export function HeaderBanner() {
   return (
-    <header className="relative overflow-hidden bg-[#6a1017] text-white shadow-2xl rounded-b-3xl h-[800px] min-h-[800px] flex flex-col justify-center items-center">
+    <header className="relative overflow-hidden bg-[#6a1017] text-white shadow-2xl rounded-b-3xl">
       {/* Background layer matching uploaded image: deep wine red with two soft radial glow spots */}
       <div className="absolute inset-0 pointer-events-none select-none" aria-hidden="true">
         {/* SVG background for flawless high-DPI radial spotlights */}
@@ -102,25 +102,32 @@ export function HeaderBanner() {
         />
       </div>
 
-      <div className="relative max-w-4xl mx-auto px-4 py-12 text-center flex flex-col items-center justify-center my-auto">
+      <div className="relative max-w-4xl mx-auto px-4 py-8 sm:py-12 text-center">
         {/* Flag pairing - no border frames, equal size */}
-        <div className="flex items-center justify-center gap-6 sm:gap-8 mb-8" aria-hidden="true">
-          <VietnamFlag className="w-16 h-11 sm:w-24 sm:h-16 md:w-28 md:h-19 drop-shadow-xl" />
-          <CanadaFlag className="w-16 h-11 sm:w-24 sm:h-16 md:w-28 md:h-19 drop-shadow-xl" />
+        <div className="flex items-center justify-center gap-4 sm:gap-6 mb-5" aria-hidden="true">
+          <VietnamFlag className="w-12 h-8 sm:w-16 sm:h-10 md:w-20 md:h-13 drop-shadow-md" />
+          <CanadaFlag className="w-12 h-8 sm:w-16 sm:h-10 md:w-20 md:h-13 drop-shadow-md" />
         </div>
 
         {/* Main Title Badge - larger text, white color, transparent background */}
-        <div className="inline-block bg-transparent text-lg sm:text-xl md:text-2xl font-black tracking-widest uppercase mb-5 text-white drop-shadow-md">
+        <div className="inline-block bg-transparent text-base sm:text-lg md:text-xl font-black tracking-widest uppercase mb-3 text-white drop-shadow-md">
           VIỆT NAM - CANADA
         </div>
 
-        {/* Main Title - preserved exact 3-line format */}
-        <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold uppercase tracking-tight leading-snug sm:leading-tight text-white drop-shadow-xl max-w-3xl mx-auto">
-          Triển vọng tăng cường hợp tác
-          <br />
-          song phương và đa phương
-          <br />
-          trên nhiều lĩnh vực
+        {/* Main Title - 4 lines with 'Triển vọng' larger */}
+        <h1 className="font-extrabold uppercase tracking-tight text-white drop-shadow-lg max-w-3xl mx-auto">
+          <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight mb-1 sm:mb-2 leading-tight">
+            Triển vọng
+          </span>
+          <span className="block text-xl sm:text-2xl md:text-3xl leading-snug sm:leading-tight">
+            tăng cường hợp tác
+          </span>
+          <span className="block text-xl sm:text-2xl md:text-3xl leading-snug sm:leading-tight">
+            song phương và đa phương
+          </span>
+          <span className="block text-xl sm:text-2xl md:text-3xl leading-snug sm:leading-tight">
+            trên nhiều lĩnh vực
+          </span>
         </h1>
       </div>
     </header>
