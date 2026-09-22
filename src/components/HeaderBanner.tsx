@@ -119,13 +119,13 @@ export function HeaderBanner() {
           <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight mb-1 sm:mb-2 leading-tight">
             Triển vọng
           </span>
-          <span className="block text-xl sm:text-2xl md:text-3xl leading-snug sm:leading-tight">
+          <span className="block text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-tight">
             tăng cường hợp tác
           </span>
-          <span className="block text-xl sm:text-2xl md:text-3xl leading-snug sm:leading-tight">
+          <span className="block text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-tight">
             song phương và đa phương
           </span>
-          <span className="block text-xl sm:text-2xl md:text-3xl leading-snug sm:leading-tight">
+          <span className="block text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-tight">
             trên nhiều lĩnh vực
           </span>
         </h1>
