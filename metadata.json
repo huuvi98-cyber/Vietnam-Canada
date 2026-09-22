@@ -1,0 +1,6 @@
+{
+  "name": "Quan hệ Việt Nam - Canada",
+  "description": "Infographic triển vọng tăng cường hợp tác song phương và đa phương Việt Nam - Canada",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
