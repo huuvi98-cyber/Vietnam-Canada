@@ -32,30 +32,21 @@ export function PoliticalSection() {
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
             Tháng <span className="text-xl sm:text-2xl font-normal text-blue-600 mx-0.5 inline-block">11-2017</span>, hai nước xác lập khuôn khổ quan hệ Đối tác toàn diện, đề ra các nguyên
             tắc cơ bản định hướng cho quan hệ song phương, tập trung vào các lĩnh vực hợp tác:
-            chính trị - ngoại giao, thương mại - đầu tư, hợp tác phát triển, quốc phòng - an
+            chính trị - ngoại giao, thương mại - đầu tư, quốc phòng - an
             ninh, văn hóa - giáo dục, khoa học - công nghệ, giao lưu nhân dân.
           </p>
         </div>
 
-        {/* Card 3: Cooperation mechanisms */}
-        <div className="relative bg-white rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-indigo-600 border-slate-100 hover:shadow-lg transition-shadow">
-          <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
-            Hai nước duy trì đều đặn các cơ chế hợp tác như: Tham khảo chính trị, Ủy ban Hỗn
-            hợp về Kinh tế, Đối thoại Chính sách Quốc phòng… tạo nền tảng ổn định cho sự gắn kết
-            chiến lược.
-          </p>
-        </div>
-
-        {/* Card 4: Vietnam's perspective */}
-        <div className="relative bg-slate-100/80 rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-red-500 border-slate-200/90 hover:shadow-lg transition-shadow">
+        {/* Card 3: Vietnam's perspective */}
+        <div className="relative bg-white rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-red-500 border-slate-100 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
             Việt Nam luôn coi trọng quan hệ Đối tác toàn diện với Canada và sẵn sàng cùng Canada
             mở rộng, tăng cường hợp tác thực chất, hướng tới sớm nâng cấp khuôn khổ quan hệ.
           </p>
         </div>
 
-        {/* Card 5: Canada's perspective */}
-        <div className="relative bg-white rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-rose-600 border-slate-100 hover:shadow-lg transition-shadow">
+        {/* Card 4: Canada's perspective */}
+        <div className="relative bg-slate-100/80 rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-rose-600 border-slate-200/90 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
             Canada coi Việt Nam là một đối tác quan trọng ở ASEAN và Ấn Độ Dương - Thái Bình
             Dương, có vai trò, vị thế ngày càng tăng trên trường quốc tế.
