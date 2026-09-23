@@ -23,14 +23,14 @@ export function PoliticalSection() {
         {/* Card 1: 1973 milestone */}
         <div className="relative bg-white rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-sky-500 border-slate-100 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
-            Việt Nam và Canada thiết lập quan hệ ngoại giao vào năm 1973.
+            Việt Nam và Canada thiết lập quan hệ ngoại giao vào năm <span className="text-xl sm:text-2xl font-normal text-sky-600 mx-0.5 inline-block">1973</span>.
           </p>
         </div>
 
         {/* Card 2: 11-2017 & 7 cooperation pillars */}
         <div className="relative bg-slate-100/80 rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-blue-600 border-slate-200/90 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
-            Tháng 11-2017, hai nước xác lập khuôn khổ quan hệ Đối tác toàn diện, đề ra các nguyên
+            Tháng <span className="text-xl sm:text-2xl font-normal text-blue-600 mx-0.5 inline-block">11-2017</span>, hai nước xác lập khuôn khổ quan hệ Đối tác toàn diện, đề ra các nguyên
             tắc cơ bản định hướng cho quan hệ song phương, tập trung vào các lĩnh vực hợp tác:
             chính trị - ngoại giao, thương mại - đầu tư, hợp tác phát triển, quốc phòng - an
             ninh, văn hóa - giáo dục, khoa học - công nghệ, giao lưu nhân dân.

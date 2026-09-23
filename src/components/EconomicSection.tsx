@@ -36,7 +36,7 @@ export function EconomicSection() {
         {/* Card 2: Top 40 partners in Indo-Pacific */}
         <div className="relative bg-slate-100/80 rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-teal-500 border-slate-200/90 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
-            Việt Nam nằm trong nhóm <AnimatedNumber end={40} decimals={0} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> đối tác thương mại hàng đầu của Canada ở khu vực Ấn Độ
+            Việt Nam nằm trong nhóm <AnimatedNumber end={40} decimals={0} className="text-xl sm:text-2xl font-normal text-teal-600 mx-0.5 inline-block" /> đối tác thương mại hàng đầu của Canada ở khu vực Ấn Độ
             Dương - Thái Bình Dương.
           </p>
         </div>
@@ -44,21 +44,21 @@ export function EconomicSection() {
         {/* Card 3: 2nd largest in the Americas */}
         <div className="relative bg-white rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-cyan-500 border-slate-100 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
-            Canada là đối tác thương mại lớn thứ <AnimatedNumber end={2} decimals={0} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> của Việt Nam tại châu Mỹ.
+            Canada là đối tác thương mại lớn thứ <AnimatedNumber end={2} decimals={0} className="text-xl sm:text-2xl font-normal text-cyan-600 mx-0.5 inline-block" /> của Việt Nam tại châu Mỹ.
           </p>
         </div>
 
         {/* Card 4: 3rd export in Americas, 7th globally */}
         <div className="relative bg-slate-100/80 rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-blue-500 border-slate-200/90 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
-            Canada là đối tác xuất khẩu lớn thứ <AnimatedNumber end={3} decimals={0} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> ở châu Mỹ và là thị trường xuất khẩu lớn thứ <AnimatedNumber end={7} decimals={0} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> của <br /><span className="whitespace-nowrap">Việt Nam</span>.
+            Canada là đối tác xuất khẩu lớn thứ <AnimatedNumber end={3} decimals={0} className="text-xl sm:text-2xl font-normal text-blue-600 mx-0.5 inline-block" /> ở châu Mỹ và là thị trường xuất khẩu lớn thứ <AnimatedNumber end={7} decimals={0} className="text-xl sm:text-2xl font-normal text-blue-600 mx-0.5 inline-block" /> của <br /><span className="whitespace-nowrap">Việt Nam</span>.
           </p>
         </div>
 
         {/* Card 5: Trade volume 2025 */}
         <div className="relative bg-white rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-emerald-600 border-slate-100 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed mb-4">
-            Năm <span className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block">2025</span>, xuất khẩu của Việt Nam sang Canada đạt <AnimatedNumber end={13.8} decimals={1} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> tỷ USD, tăng <AnimatedNumber end={28.4} decimals={1} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" />%, đưa tổng kim ngạch thương mại hai chiều lên khoảng <AnimatedNumber end={14.75} decimals={2} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> tỷ USD.
+            Năm <span className="text-xl sm:text-2xl font-normal text-emerald-600 mx-0.5 inline-block">2025</span>, xuất khẩu của Việt Nam sang Canada đạt <AnimatedNumber end={13.8} decimals={1} className="text-xl sm:text-2xl font-normal text-emerald-600 mx-0.5 inline-block" /> tỷ USD, tăng <AnimatedNumber end={28.4} decimals={1} className="text-xl sm:text-2xl font-normal text-emerald-600 mx-0.5 inline-block" />%, đưa tổng kim ngạch thương mại hai chiều lên khoảng <AnimatedNumber end={14.75} decimals={2} className="text-xl sm:text-2xl font-normal text-emerald-600 mx-0.5 inline-block" /> tỷ USD.
           </p>
 
           {/* Clean metric stats */}
@@ -106,21 +106,21 @@ export function EconomicSection() {
         {/* Card 6: First time surpassing 8.5B and 1B, doubled in 4 years */}
         <div className="relative bg-slate-100/80 rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-amber-500 border-slate-200/90 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
-            Thương mại song phương năm <span className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block">2025</span> đạt <AnimatedNumber end={8.6} decimals={1} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> tỷ USD, tăng <AnimatedNumber end={18.8} decimals={1} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" />%, với xuất khẩu lần đầu chạm ngưỡng <AnimatedNumber end={7.5} decimals={1} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> tỷ USD và nhập khẩu từ Canada vượt <AnimatedNumber end={1} decimals={0} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> tỷ USD.
+            Thương mại song phương năm <span className="text-xl sm:text-2xl font-normal text-amber-600 mx-0.5 inline-block">2025</span> đạt <AnimatedNumber end={8.6} decimals={1} className="text-xl sm:text-2xl font-normal text-amber-600 mx-0.5 inline-block" /> tỷ USD, tăng <AnimatedNumber end={18.8} decimals={1} className="text-xl sm:text-2xl font-normal text-amber-600 mx-0.5 inline-block" />%, với xuất khẩu lần đầu chạm ngưỡng <AnimatedNumber end={7.5} decimals={1} className="text-xl sm:text-2xl font-normal text-amber-600 mx-0.5 inline-block" /> tỷ USD và nhập khẩu từ Canada vượt <AnimatedNumber end={1} decimals={0} className="text-xl sm:text-2xl font-normal text-amber-600 mx-0.5 inline-block" /> tỷ USD.
           </p>
         </div>
 
         {/* Card 7: 2026 momentum */}
         <div className="relative bg-white rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-sky-600 border-slate-100 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
-            Đà tăng trưởng tiếp tục được duy trì trong năm <span className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block">2026</span>, khi xuất khẩu <AnimatedNumber end={4} decimals={0} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> tháng đầu năm của <br /><span className="whitespace-nowrap">Việt Nam</span> sang Canada tăng <AnimatedNumber end={25} decimals={0} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" />%.
+            Đà tăng trưởng tiếp tục được duy trì trong năm <span className="text-xl sm:text-2xl font-normal text-sky-600 mx-0.5 inline-block">2026</span>, khi xuất khẩu <AnimatedNumber end={4} decimals={0} className="text-xl sm:text-2xl font-normal text-sky-600 mx-0.5 inline-block" /> tháng đầu năm của <br /><span className="whitespace-nowrap">Việt Nam</span> sang Canada tăng <AnimatedNumber end={25} decimals={0} className="text-xl sm:text-2xl font-normal text-sky-600 mx-0.5 inline-block" />%.
           </p>
         </div>
 
         {/* Card 8: Investment: 14th largest investor, > 4.9B USD */}
         <div className="relative bg-slate-100/80 rounded-2xl p-5 sm:p-6 shadow-md border-l-[12px] sm:border-l-[14px] border-l-indigo-600 border-slate-200/90 hover:shadow-lg transition-shadow">
           <p className="text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
-            Về đầu tư, Canada hiện là nhà đầu tư lớn thứ <AnimatedNumber end={14} decimals={0} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> tại Việt Nam với hơn <AnimatedNumber end={4.9} decimals={1} className="text-xl sm:text-2xl font-normal text-slate-800 mx-0.5 inline-block" /> tỷ USD.
+            Về đầu tư, Canada hiện là nhà đầu tư lớn thứ <AnimatedNumber end={14} decimals={0} className="text-xl sm:text-2xl font-normal text-indigo-600 mx-0.5 inline-block" /> tại Việt Nam với hơn <AnimatedNumber end={4.9} decimals={1} className="text-xl sm:text-2xl font-normal text-indigo-600 mx-0.5 inline-block" /> tỷ USD.
           </p>
         </div>
       </div>
