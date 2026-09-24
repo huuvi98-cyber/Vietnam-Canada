@@ -109,24 +109,18 @@ export function HeaderBanner() {
           <CanadaFlag className="w-12 h-8 sm:w-16 sm:h-10 md:w-20 md:h-13 drop-shadow-md" />
         </div>
 
-        {/* Main Title Badge - larger text, white color, transparent background */}
-        <div className="inline-block bg-transparent text-base sm:text-lg md:text-xl font-black tracking-widest uppercase mb-3 text-white drop-shadow-md">
+        {/* Main Title Badge - normal weight, white color, transparent background */}
+        <div className="inline-block bg-transparent text-lg sm:text-xl md:text-2xl font-normal tracking-widest uppercase mb-3 text-white drop-shadow-md">
           VIỆT NAM - CANADA
         </div>
 
-        {/* Main Title - 4 lines with 'Triển vọng' larger */}
-        <h1 className="font-extrabold uppercase tracking-tight text-white drop-shadow-lg max-w-3xl mx-auto">
-          <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight mb-1 sm:mb-2 leading-tight">
+        {/* Main Title - 'Triển vọng' and 'hợp tác rộng mở' with closer line spacing */}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase tracking-tight text-white drop-shadow-xl max-w-4xl mx-auto leading-[1.06] sm:leading-[1.1]">
+          <span className="block">
             Triển vọng
           </span>
-          <span className="block text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-tight">
-            tăng cường hợp tác
-          </span>
-          <span className="block text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-tight">
-            song phương và đa phương
-          </span>
-          <span className="block text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-tight">
-            trên nhiều lĩnh vực
+          <span className="block">
+            hợp tác rộng mở
           </span>
         </h1>
       </div>
