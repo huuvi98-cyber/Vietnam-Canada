@@ -102,7 +102,7 @@ export function HeaderBanner() {
         />
       </div>
 
-      <div className="relative max-w-4xl mx-auto px-4 py-8 sm:py-12 text-center">
+      <div className="relative max-w-5xl mx-auto px-4 py-14 sm:py-20 md:py-24 text-center">
         {/* Flag pairing - no border frames, equal size */}
         <div className="flex items-center justify-center gap-4 sm:gap-6 mb-5" aria-hidden="true">
           <VietnamFlag className="w-12 h-8 sm:w-16 sm:h-10 md:w-20 md:h-13 drop-shadow-md" />
@@ -110,13 +110,13 @@ export function HeaderBanner() {
         </div>
 
         {/* Main Title Badge - normal weight, white color, transparent background */}
-        <div className="inline-block bg-transparent text-lg sm:text-xl md:text-2xl font-normal tracking-widest uppercase mb-3 text-white drop-shadow-md">
+        <div className="inline-block bg-transparent text-lg sm:text-xl md:text-2xl font-normal tracking-widest uppercase mb-4 text-white drop-shadow-md">
           VIỆT NAM - CANADA
         </div>
 
-        {/* Main Title - 'Triển vọng' and 'hợp tác rộng mở' with closer line spacing */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase tracking-tight text-white drop-shadow-xl max-w-4xl mx-auto leading-[1.06] sm:leading-[1.1]">
-          <span className="block">
+        {/* Main Title - 'Triển vọng' and 'hợp tác rộng mở' with larger font size */}
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tight text-white drop-shadow-2xl max-w-5xl mx-auto leading-tight sm:leading-snug">
+          <span className="block mb-2 sm:mb-3">
             Triển vọng
           </span>
           <span className="block">
